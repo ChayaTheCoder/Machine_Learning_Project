@@ -1,9 +1,11 @@
 # Emotion and Sentiment Classification of Social Media Text
 
-Authors: Michaya Mohamed, Ivan Ivanov
+**Authors**
+- Michaya Mohamed
+- Ivan Ivanov
 
 # Project Overview
-This project explores machine learning techniques for emotion and sentiment classification using social media text data collected from Twitter. The dataset contains 20,000 labeled text samples representing six emotional categories:
+This project explores machine learning techniques for emotion and sentiment classification using social media text data collected from Twitter. The dataset contains 20,000 text samples representing six emotional categories:
 
 # Label	Emotion
 - 0	Sadness
@@ -13,7 +15,7 @@ This project explores machine learning techniques for emotion and sentiment clas
 - 4	Fear
 - 5	Surprise
 
-Rather than replacing the original emotion labels, this project investigates how different sentiment analysis methods interpret emotional content as positive, negative, or neutral. The goal is to compare machine learning and rule-based sentiment models and evaluate how well they align with human interpretations of emotion expressed in social media text.
+Rather than replacing the original emotion labels, this project investigates how different sentiment analysis methods interpret emotional content as positive, negative, or neutral. The goal is to compare machine learning and rule based sentiment models and evaluate how well they align with human interpretations of emotion expressed in social media text.
 
 # Research Question
 How effectively can different sentiment analysis algorithms classify emotional social media posts as positive, negative, or neutral?
@@ -35,12 +37,12 @@ How effectively can different sentiment analysis algorithms classify emotional s
 
 3. Multinomial Naive Bayes is a probabilistic text classification model that performs efficiently on sparse text data.
 
-4. VADER Sentiment Analyzer (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool designed specifically for social media text.
+4. VADER Sentiment Analyzer (Valence Aware Dictionary and Sentiment Reasoner) is a lexicon and rule based sentiment analysis tool designed specifically for social media text.
 
-5. Dictionary-Based Scoring sentiment analysis uses predefined sentiment lexicons to calculate positive, negative, and neutral sentiment scores without model training.
+5. Dictionary Based Scoring sentiment analysis uses predefined sentiment lexicons to calculate positive, negative, and neutral sentiment scores without model training.
 
 # Methods
-The text data will be preprocessed using standard natural language processing techniques including lowercasing, punctuation removal, stop-word removal, and TF-IDF vectorization. Machine learning models will be trained on the training set, tuned using the validation set, and evaluated on the testing set. Performance will be measured using accuracy, precision, recall, F1-score, and confusion matrices.
+The text data will be preprocessed using standard natural language processing techniques including lowercasing, punctuation removal, stop word removal, and TF-IDF vectorization. Machine learning models will be trained on the training set, tuned using the validation set, and evaluated on the testing set. 
 
 # Evaluation Metrics
 - Accuracy
